@@ -1,0 +1,346 @@
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 0px) { 
+    * {
+        box-sizing: border-box;
+        color: #333;
+      }
+      
+    body {
+       margin: 0;
+       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+     
+
+
+
+    /* Signature Font CSS */
+    #header .navbar-brand {
+      font-family: 'Love Light', cursive;
+      font-size: 40px;
+    }    
+
+    /* Navbar Active page color CSS */
+    #header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+      color: rgb(40, 38, 161);
+    }
+
+    /* Navbar links CSS */
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-weight: 700;
+    }
+
+    /* Header paragraph heading button CSS */
+    #header .header-text .name{
+      color:  rgb(40, 38, 161);
+    }
+
+    .custom-heading{
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    #header .header-text .custom-heading span{
+      color: rgb(40, 38, 161);
+    }
+
+
+    .paragraph-text{
+      color: lightgrey;
+      font-weight: 400;
+    }
+
+    .custom-button{
+      background-color: rgb(40, 38, 161);
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    /* Header Image */
+    #header .header-image img{
+      width: 100%;
+    }
+
+
+
+    /* Project partner CSS */
+    #project-partner {
+      text-align: center;
+    }
+
+    #project-partner .custom-heading{
+      padding: 1rem;
+    }
+
+    #project-partner .logo-image {
+      width: 100px;
+      height: 100px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+  /* Sesction Abouit us heading */
+    #about-us {
+      padding-top: 1rem;
+      height: 200px;
+    }
+
+  /* Combo Heading CSS */
+  .back-heading {
+    font-size: 3.5rem;
+    color: aliceblue;
+  }
+
+  .combo-heading {
+    position: relative;
+    height: 160px;
+  }
+
+  .combo-heading .custom-heading {
+    position: absolute;
+    font-size: 2rem;
+    top: 40px;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+ }
+
+  /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+      /* Combo Heading CSS */
+  .back-heading {
+    font-size: 4.5rem;
+
+  }
+
+  .combo-heading {
+    height: 180px;
+  }
+
+  .combo-heading .custom-heading {
+    font-size: 3rem;
+    top: 50px;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+
+    /* Header paragraph heading button CSS */
+
+    #header {
+      position: relative;
+      height: 530px;
+    }
+
+    #header .header-text {
+      width: 60%;
+    }
+
+    .paragraph-text{
+      margin-right: 2rem;
+    }
+
+    .custom-button{
+      border-radius: 10px;
+    }
+
+
+    /* Header Image */
+    #header .header-image {
+      width: 40%;
+      position: absolute;
+      right: 0;
+      top: 5rem;
+    }
+
+    #header .header-image img{
+          width: 100%;
+    }
+
+
+      /* Sesction Abouit us heading */
+      #about-us {
+        padding-top: 2rem;
+      }
+
+            /* Combo Heading CSS */
+  .back-heading {
+    font-size: 5.5rem;
+
+  }
+
+  .combo-heading {
+    height: 230px;
+  }
+
+  .combo-heading .custom-heading {
+    font-size: 4rem;
+    top: 60px;
+  }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  /* header CSS */
+  #header {
+    height: 630px;
+  } 
+  
+  /* Navbar links CSS */
+  #header .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+
+  /* Header paragraph heading button CSS */
+  #header .header-text {
+    width: 50%;
+    padding: .2rem;
+  }
+
+
+  #header .header-text .name{
+    font-size: 35px;
+    padding-top: 2rem;
+  }
+
+  .custom-heading{
+    font-size: 40px;
+  }
+
+  .paragraph-text{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+        /* Combo Heading CSS */
+        .back-heading {
+          font-size: 4.5rem;
+        }
+      
+        .combo-heading {
+          height: 180px;
+        }
+      
+        .combo-heading .custom-heading {
+          font-size: 3rem;
+          top: 45px;
+        }
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    /* header CSS */
+    #header {
+      height: 680px;
+    } 
+
+    /* Signature Font CSS */
+    #header .navbar-brand {
+      margin-right: 3rem;
+    }  
+
+  /* Navbar links CSS */
+  .navbar-light .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+    /* Navbar links CSS */
+    #header .navbar-nav {
+      margin-left: 0;
+    }
+
+  /* Header paragraph heading button CSS */
+  #header .header-text {
+    width: 60%;
+  }
+
+  #header .header-text .name{
+    font-size: 45px;
+  }
+
+  .custom-heading{
+    font-size: 60px;
+  }
+
+      /* Header Image */
+      #header .header-image {
+        top: 0;
+      }
+
+
+        /* Sesction Abouit us heading */
+    #about-us {
+      padding-top: 3rem;
+    }
+
+        /* Combo Heading CSS */
+        .back-heading {
+          font-size: 6.5rem;
+        }
+      
+        .combo-heading {
+          height: 190px;
+        }
+      
+        .combo-heading .custom-heading {
+          top: 70px;
+        }
+
+        .about-image img {
+          width: 80%;
+          height: 600px;
+        }
+
+        .about-image {
+          text-align: right;
+        }
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+
+    /* Navbar links CSS */
+    #header .navbar-nav {
+      margin-left: 5rem;
+    }    
+
+    /* Header paragraph heading button CSS */
+    #header .header-text {
+      width: 65%;
+    }
+
+     /* Header Image */
+    #header .header-image {
+      width: 35%;
+    }
+
+
+    .about-image img {
+      width: 70%;
+      height: 600px;
+    }
+
+ }
